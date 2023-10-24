@@ -1,4 +1,4 @@
-//定义求阶乘函数fac
+//露篓脪氓脟贸陆脳鲁脣潞炉脢媒fac
 #include<iostream>
 using namespace std;
 
