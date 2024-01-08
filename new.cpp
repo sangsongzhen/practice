@@ -3,24 +3,24 @@ using namespace std;
 
 int* func()
 {
-	int* p = new int(10);	// ÔÚ¶ÑÇø´´½¨ÕûĞÍÊı¾İ
+	int* p = new int(10);	// åœ¨å †åŒºåˆ›å»ºæ•´å‹æ•°æ®
 	return p;
 }
 
 double* func01()
 {
-	double* f = new double(3.1415926);	// floatÀàĞÍÓÃfloatÀàĞÍ½ÓÊÕ¿ª±ÙµÄÊı¾İ
+	double* f = new double(3.1415926);	// floatç±»å‹ç”¨floatç±»å‹æ¥æ”¶å¼€è¾Ÿçš„æ•°æ®
 	return f;
 }
 
 void test01() 
 {
 	int* p = func();
-	cout << *p << endl;	// ½âÒıÓÃ
+	cout << *p << endl;	// è§£å¼•ç”¨
 
 	/*
-	delete p;	// ÊÍ·ÅÄÚ´æ
-	cout << *p << endl;	// ¶ÁÈ¡·ÃÎÊÈ¨ÏŞ³åÍ»
+	delete p;	// é‡Šæ”¾å†…å­˜
+	cout << *p << endl;	// è¯»å–è®¿é—®æƒé™å†²çª
 	*/
 }
 
@@ -41,6 +41,7 @@ void test03()
 		cout << arr[i] << " ";
 	}
 	cout << endl;
+	delete[] arr;	// é‡Šæ”¾å†…å­˜
 }
 
 int main()
