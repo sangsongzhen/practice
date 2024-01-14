@@ -1,0 +1,12 @@
+// 平方pow()
+int a = pow(4, 2);
+
+// 开方
+int b = pow(4, 0.5);
+int c = sqrt(4);
+
+// 整数的绝对值
+int c = abs(b-c);
+
+// 浮点数的绝对值
+double d = fabs(b-c);
